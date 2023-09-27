@@ -4,7 +4,7 @@
 #SBATCH -J bpnet
 #SBATCH --mail-user=xiang.li.1@kaust.edu.sa
 #SBATCH --mail-type=ALL
-#SBATCH --time=96:00:00
+#SBATCH --time=00:10:00
 #SBATCH --mem=8G
 #SBATCH --gres=gpu:1
 
