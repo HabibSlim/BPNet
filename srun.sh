@@ -6,7 +6,7 @@
 #SBATCH --mail-type=ALL
 #SBATCH --time=00:10:00
 #SBATCH --mem=8G
-#SBATCH --gres=gpu:1
+#SBATCH --gres=gpu:v100:6
 
 cd /ibex/scratch/slimhy/BPNet
 export TOKENIZERS_PARALLELISM=false
